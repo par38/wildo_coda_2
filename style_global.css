@@ -1,0 +1,75 @@
+.navbar{
+    margin-top: 20px;
+  }
+  
+  .navbar-brand{
+    font-family: "Source Code Pro", monospace;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .navbar-nav li a{
+    font-family: "Source Code Pro", monospace;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+   
+  .fixed-bottom {
+    width: 100%;
+  
+  }
+  
+  .copyright{
+    margin-top: 9px;
+    margin-bottom: 0;
+  }
+  
+  /* réseaux sociaux */
+    
+  .social-link li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+    
+  .social-link a{
+    display: inline-block;
+    padding: 5px;
+    font-size: 22px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #cd486b;
+    color: white;
+  }
+    
+  
+  /* a:hover */
+  
+  .navbar-nav li a:hover{
+    color: red;
+  }
+  
+  /*COULEUR FOND DE PAGES */
+
+  body {
+    background-color: lightgrey;
+  }

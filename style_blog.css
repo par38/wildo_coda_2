@@ -1,0 +1,82 @@
+/* PARAMETRAGES BLOG */
+
+* {
+    background-color: /* à faire*/
+
+}
+
+.texte {
+    text-align: justify;
+}
+
+.text-dark-medium {
+    font-size: 1.05rem;
+    margin-bottom: 0rem;
+}
+
+.image-blog {
+    max-width: 98%;
+} 
+
+.date {
+    text-align: end;
+}
+
+.card-text {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    /* height: 11vh; */
+    margin: 1vh auto;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.fond_photo {
+    background-color: #565557;
+    height: 225px;
+    width: auto;
+}
+
+.fond_photo img {
+   width:auto;
+   height:auto;
+   /* align-content: space-around;
+   align-content: center; */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.mb-0 {
+    padding: 20px 20px 0 20px;
+}
+
+.mb-1 {
+    padding: 0px 20px 0 20px;
+}
+
+.modal-blog {
+    font-size: 0.8em;
+    color: #6c757d!important;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+.container-nav{
+	margin-top: 20px;
+}
+
+.container-nav li a{
+	font-family: "Source Code Pro", monospace;
+    color: black;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+
