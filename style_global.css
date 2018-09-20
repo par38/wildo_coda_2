@@ -29,8 +29,7 @@
  .footer-bottom {
     background-color: #F4F6F7;
     position: relative;
-    bottom: 0px;
-    left: 0px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -93,6 +92,30 @@
   color: white;
 }
 
+
+  body {
+    background-color: lightgrey;
+  }
+
+  /* BIO PHOTOGRAPHE (FLOAT */
+
+  .imageflottante {
+    float: left;
+    border-radius: 50%;
+    margin-right: 25PX;
+  
+    
+  }
+
+  #bio {
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
 @media only screen and (max-width : 760px) {
 
   .container-fluid{
@@ -105,3 +128,4 @@
     float: left;
   }
 }
+
