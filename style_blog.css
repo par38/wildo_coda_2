@@ -1,17 +1,20 @@
 /* PARAMETRAGES BLOG */
-
-* {
-    background-color: /* à faire*/
-
+section {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .texte {
     text-align: justify;
 }
 
-.text-dark-medium {
+.text-dark-medium-blog {
     font-size: 1.05rem;
     margin-bottom: 0rem;
+}
+
+.text-dark-blog {
+    font-size: 1.7rem;
+    color: black;
 }
 
 .image-blog {
@@ -78,5 +81,6 @@
 	font-weight: bold;
 }
 
-
-
+.margin-modal-blog {
+    margin-top: 1rem;
+}

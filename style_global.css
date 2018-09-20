@@ -1,74 +1,97 @@
+
+/* Navbar */
+
 .navbar{
-    margin-top: 20px;
+    margin-top: 15px;
   }
   
-  .navbar-brand{
-    font-family: "Source Code Pro", monospace;
-    color: black;
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-left: 15px;
-  }
+.navbar-brand{
+  font-family: "Shadows Into Light";
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 16px;
+}
   
-  .navbar-nav li a{
-    font-family: "Source Code Pro", monospace;
-    color: black;
-    font-size: 1.3em;
-    font-weight: bold;
-  }
-  
-  /* Footer */
-   
-  .fixed-bottom {
+#navbarNav li a{
+  font-family: "Source Code Pro", monospace;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-right: 10px;
+  -moz-transition: all .5s; 
+  -webkit-transition: all .5s; 
+  -o-transition: all .5s; 
+  transition: all .5s;
+}
+
+  /* Footer */   
+ .footer-bottom {
+    background-color: #F4F6F7;
+    position: relative;
+    margin-bottom: 0px;
     width: 100%;
-  
+}
+
+.pull-left{
+    padding : 15px;
+    margin : 0px;
+    line-height : 100%;
+    text-align: center;
+    font-size: 0.8em;
   }
-  
-  .copyright{
-    margin-top: 9px;
-    margin-bottom: 0;
-  }
-  
+
   /* réseaux sociaux */
-    
-  .social-link li {
-      display: inline-block;
-      margin: 0 5px;
-    }
-    
-  .social-link a{
+
+  .social-links {
+    list-style-type: none;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .social-links li{
     display: inline-block;
+    text-align: center;
+  }
+
+  .fa {
     padding: 5px;
     font-size: 22px;
     height: 30px;
     width: 30px;
     text-align: center;
     border-radius: 50%;
-  }
-  
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
-  
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #cd486b;
-    color: white;
+    color: #808080;
   }
     
   
   /* a:hover */
-  
-  .navbar-nav li a:hover{
-    color: red;
+
+  #navbarNav li a:hover{
+    color:#40A497;
+    padding-left: 20px;
+    width: 130px;
+    -moz-transition: all .5s; 
+    -webkit-transition: all .5s; 
+    -o-transition: all .5s; 
+    transition: all .5s;
   }
+
+  .nav-item:hover .fa-pinterest{ 
+      background: #cb2027;
+      color: white;
+    }
   
-  /*COULEUR FOND DE PAGES */
+ .nav-item:hover .fa-facebook{ 
+   background: #3b5998;
+   color: white;
+}
+
+.nav-item:hover .fa-instagram{ 
+  background: #cd486b;
+  color: white;
+}
+
 
   body {
     background-color: lightgrey;
@@ -92,3 +115,17 @@
     font-family: 'Montserrat', sans-serif;
   }
   
+
+@media only screen and (max-width : 760px) {
+
+  .container-fluid{
+    width: 89%;
+  }
+
+  .social-links {
+    display: inline-block;
+    text-align: center;
+    float: left;
+  }
+}
+
