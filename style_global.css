@@ -10,6 +10,7 @@
     margin-left: 15px;
   }
   
+<<<<<<< Updated upstream
   .navbar-nav li a{
     font-family: "Source Code Pro", monospace;
     color: black;
@@ -20,6 +21,13 @@
   /* Footer */
    
   .fixed-bottom {
+=======
+ .footer-bottom {
+    background-color: #F4F6F7;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+>>>>>>> Stashed changes
     width: 100%;
   
   }

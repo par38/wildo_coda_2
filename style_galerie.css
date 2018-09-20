@@ -47,3 +47,11 @@ body, .grosContener .galerieConterner .fondPelicule {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+/* TITRES DE GALERIES*/
+h2 {
+    font-family: "Montserrat";
+}
+
+article {
+    padding-bottom: 3.5em
+}
