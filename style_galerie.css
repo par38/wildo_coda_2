@@ -1,22 +1,3 @@
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-    
- }
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
-    
- }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-
- }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { 
-    
- }
 .galeryName {
     color: black;
 }
@@ -35,6 +16,26 @@ body, .grosContener .galerieConterner .fondPelicule {
     width: 75%;
     height: auto;
 }
+#overlay{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1000;
+}
+#overlay:target{
+    display: block;
+}
+#overlay a{
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
 .grayscale img:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -46,6 +47,3 @@ body, .grosContener .galerieConterner .fondPelicule {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
-
-
-
