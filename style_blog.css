@@ -1,4 +1,7 @@
 /* PARAMETRAGES BLOG */
+section {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .texte {
     text-align: justify;
