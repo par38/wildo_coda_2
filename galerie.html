@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style_global.css">
-    <link rel="stylesheet" href="style_galerie.css" />
+    <link rel="stylesheet" href="style_global.css"/>
+    <link rel="stylesheet" href="style_galerie.css"/>
 
     <title>Wildo Coda - Galeries</title>
   </head>
@@ -48,75 +48,399 @@
             <div class="fondPelicule col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto">
               <div class="mx-auto"><h2 class="galeryName text-center">Monuments</h2></div>
               <div class="pelicule container col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto"> 
-                <div class="mx-auto"> <!--1ere photo-->
-                  <a href=""><img src="images/Monument1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--1ere photo-->
+                  <a href="#monument1" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto"> <!--2eme photo-->
-                  <a href=""><img src="images/Monument2.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>                </div>
-                <div class="mx-auto"> <!--3eme photo-->
-                  <a href=""><img src="images/Monument3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument1" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument1.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--2eme photo-->
+                  <a href="#monument2" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument2.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto"> <!--4eme photo-->
-                  <a href=""><img src="images/Monument4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument2" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument2.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+                
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--3eme photo-->
+                  <a href="#monument3" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto"> <!--5eme photo-->
-                  <a href=""><img src="images/Monument5.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument3" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument3.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--4eme photo-->
+                  <a href="#monument4" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto"> <!--6eme photo-->
-                  <a href=""><img src="images/Monument6.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument4" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument4.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--5eme photo-->
+                  <a href="#monument5" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument5.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument5" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument5.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE MONUMENTS-->
+                <div class="grayscale mx-auto"> <!--6eme photo-->
+                  <a href="#monument6" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Monument6.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="monument6" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument6.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
               </div>
             </div>
-            
-            <div class="fondPelicule col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto"> <!--Container galerie Uderground-->
+
+<!--*********************************************CONTAINER GALERIE STREET ART**************************************-->
+            <div class="fondPelicule col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto"> 
               <div class="mx-auto"><h2 class="galeryName text-center">Street art</h2></div>
               <div class="pelicule container col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto"> 
-                <div class="mx-auto"> <!--1ere photo-->
-                  <a href=""><img src="images/Street1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto"> <!--2eme photo-->
-                  <a href=""><img src="images/Street10.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto"> <!--3eme photo-->
-                  <a href=""><img src="images/Street3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto"> <!--4eme photo-->
-                  <a href=""><img src="images/Street4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto"> <!--5eme photo-->
-                  <a href=""><img src="images/Street8.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto"> <!--6eme photo-->
-                  <a href=""><img src="images/Street6.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
 
+                <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--1ere photo-->
+                  <a href="#street1" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street1" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street1.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--2eme photo-->
+                  <a href="#street10" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street10.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street10" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street10.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--3eme photo-->
+                  <a href="#street3" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street3" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street3.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--4eme photo-->
+                  <a href="#street4" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street4" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street4.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--5eme photo-->
+                  <a href="#street8" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street8.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street8" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street8.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE STREET ART-->
+                <div class="grayscale mx-auto"> <!--6eme photo-->
+                  <a href="#street6" class="openImageDialog" data-toggle="modal">
+                    <img src="images/Street6.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
+                </div>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="street6" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Street6.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
               </div>
             </div>
 
             <div class="fondPelicule col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto"> <!--Container galerie By night-->
               <div class="mx-auto"><h2 class="galeryName text-center">Insolite</h2></div>
               <div class="pelicule container col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto"> 
-                <div class="mx-auto">
-                  <a href=""><img src="images/byNight1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+                
+ <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto">
+                    <a href="#byNight1" class="openImageDialog" data-toggle="modal">
+                    <img src="images/byNight1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto">
-                  <a href=""><img src="images/byNight2.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="byNight1" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/byNight1.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto">
+                    <a href="#byNight2" class="openImageDialog" data-toggle="modal">
+                      <img src="images/byNight2.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                    </a>
                 </div>
-                <div class="mx-auto">
-                  <a href=""><img src="images/byNight3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="byNight2" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/byNight2.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto">
+                    <a href="#byNight3" class="openImageDialog" data-toggle="modal">
+                      <img src="images/byNight3.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                    </a>
                 </div>
-                <div class="mx-auto"> 
-                  <a href=""><img src="images/byNight4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+<!--******************* DEBUT MODAL LIEE ************************** -->
+<div class="modal fade" id="byNight3" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/byNight3.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+
+ <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto"> 
+                  <a href="#byNight4" class="openImageDialog" data-toggle="modal">
+                    <img src="images/byNight4.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
-                <div class="mx-auto">
-                  <a href=""><img src="images/Monument5.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
-                </div>
-                <div class="mx-auto">
-                  <a href=""><img src="images/byNight1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block"></a>
+ <!--******************* DEBUT MODAL LIEE ************************** -->
+ <div class="modal fade" id="byNight4" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/byNight4.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto">
+                    <a href="#Monument5" class="openImageDialog" data-toggle="modal">
+                      <img src="images/Monument5.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                    </a>
+                </div> 
+  <!--******************* DEBUT MODAL LIEE ************************** -->
+  <div class="modal fade" id="Monument5" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/Monument5.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ******************* FIN MODAL ******************* -->
+                
+
+ <!--NOUVELLE IMAGE DE LA GALERIE NIGHT-->
+                <div class="grayscale mx-auto">
+                  <a href="#byNight1" class="openImageDialog" data-toggle="modal">
+                    <img src="images/byNight1.jpg" class="galeryPicture img-fluid rounded mx-auto d-block">
+                  </a>
                 </div>
               </div>
             </div>
-
+<!-- ********************** DEBUT MODAL ***********************-->
+<div class="modal fade" id="byNight1" tabindex="-1" role="dialog" aria-labelledby="openImageLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="myImageId" class="img-fluid" src="images/byNight1.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn center-block" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--************************ FIN MODAL ************************-->
       </div> <!--Container galerie Monuments-->
     </div> <!--Container des 3 galeries-->
 
@@ -143,6 +467,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="galerie.js"></script>
   </body>
 </html>
