@@ -16,8 +16,6 @@ body, .grosContener .galerieConterner .fondPelicule {
     width: 75%;
     height: auto;
 }
-<<<<<<< HEAD
-
 #overlay{
     display: none;
     position: fixed;
@@ -37,7 +35,7 @@ body, .grosContener .galerieConterner .fondPelicule {
     top: 50%;
     left: 50px;
 }
-=======
+
 .grayscale img:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -49,7 +47,3 @@ body, .grosContener .galerieConterner .fondPelicule {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
-
-
-
->>>>>>> 42b988a0538060f2bbe0308c18d30c026ef046dc
