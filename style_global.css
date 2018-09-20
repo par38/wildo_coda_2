@@ -1,3 +1,4 @@
+
 /* Navbar */
 
 .navbar{
@@ -98,6 +99,22 @@
 
    /*COULEUR FOND DE PAGES */
 
-   body {
-    background-color: lightgrey;
+ body {
+  background-color: white;
+}
+
+@media only screen and (max-width : 760px) {
+
+  .container-fluid{
+    width: 89%;
   }
+
+  .social-links {
+    display: inline-block;
+    text-align: center;
+    float: left;
+  }
+}
+  
+
+  
