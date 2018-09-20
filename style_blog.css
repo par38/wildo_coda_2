@@ -11,6 +11,7 @@
 
 .text-dark-blog {
     font-size: 1.7rem;
+    color: black;
 }
 
 .image-blog {
@@ -77,5 +78,6 @@
 	font-weight: bold;
 }
 
-
-
+.margin-modal-blog {
+    margin-top: 1rem;
+}
