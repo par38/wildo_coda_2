@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf=8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <link rel="stylesheet" href="style_contact.css" />
@@ -14,10 +14,11 @@
 
 </head>
 
+    <body>
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Wild Coda <span>photographe</span></a>
+          <a class="navbar-brand" href="index.html">Wildo Coda <span>photographe</span></a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,8 +40,6 @@
         </nav>
       </header>
 
-<body>
-
   <div id="contact" class="alert alert-dark" role="alert">
     <h2>Contact</h2>
   </div>
@@ -49,23 +48,24 @@
 
     <!--Photo Wildo-->
     <div class="row">
-        <div class="col-md-6 d-flex justify-content-end">
-            <img class="img-fluid" src="https://via.placeholder.com/350x320" alt="Responsive image">
+        <div class="col-md-6 d-flex justify-content-end"><<<<<<< blog
+            <img class="img-fluid" src="images/jardin_japonais.jpg" alt="Responsive image">
         </div>
 
     <!-- Formulaire -->
     <div class="col-md-6 d-flex justify-content-start">
         <div id="contact" class="contact">
+            <form action="https://formspree.io/contact.wildocoda@gmail.com" method="POST">
             <div class="input group input-group-lg">
-                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Nom">  
+                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Nom"/>  
             </div>
             
             <div class="input group input-group-lg">
-                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Prénom">  
+                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Prénom"/>  
             </div>
 
             <div class="input group input-group-lg">
-                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="E-mail">  
+                <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="E-mail"/>  
             </div>
 
 
@@ -74,7 +74,6 @@
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                 <label class="form-check-label" for="exampleRadios1">Une idée de collaboration</label>   
         </div>
-
         <div class="form-check">
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                 <label class="form-check-label" for="exampleRadios2">Une question...</label>   
@@ -85,12 +84,15 @@
         <div class="input-group">
             <textarea name="" id="" cols="80" rows="6" class="form-control"></textarea>
         </div>
-            <button type="button" class="btn btn-light">Envoyer</button>
-        </div>
+            <input type="radio" name="examplesRadios" value="newsletter" id="newsletter"/>
+         <label for="newsletter" class="inline">S'abonner à la newsletter</label>
+            <button class="btn btn-light" type="submit">Envoyer</button>
+            <button class="btn btn-light" type="reset">Annuler</button>
+            </form>
             </div>
         </div>
-    </div>  
-</div>
+    </div>
+</div> 
 
 <!-- Footer -->
 <footer class="fixed-bottom">
@@ -117,5 +119,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
-</body>
+
+    </body>
+
 </html>
