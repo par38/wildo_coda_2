@@ -1,33 +1,7 @@
-/* MENU */
-
-
-.navbar-brand{
-    font-family:"Alex Brush'", cursive;
-    font-weight: bold;
-}
-
-.container-nav li a{
-    font-family: "Source Code Pro", monospace;
-    color: black;
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-
-.container-header{
-    margin-top: 20px;
-}
-
-
 /**** CONTACT ****/
-
 
 .contact {
     padding: 50px 0 80px;
-}
-
-.contact h2 {
-    margin: 20px 0 20px;
 }
 
 .contact .input-group {
@@ -44,9 +18,10 @@
 
 .contact .btn {
     border-radius: 0;
-    width: 100%
+    /* width: 100%; */
     font-size: 15px;
     float: right;
+    margin: 0 10px;
 }
 
 .img-fluid {
