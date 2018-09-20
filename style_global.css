@@ -29,8 +29,7 @@
  .footer-bottom {
     background-color: #F4F6F7;
     position: relative;
-    bottom: 0px;
-    left: 0px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
