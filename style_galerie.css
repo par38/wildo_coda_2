@@ -1,0 +1,57 @@
+.galeryName {
+    color: black;
+}
+body, .grosContener .galerieConterner .fondPelicule {
+    background-color: lightgrey;
+}
+.pelicule {
+    background: url("images/fondNegativeBW.jpg") repeat-y scroll center;
+    background-size: contain;
+    border-radius: 1em;
+    box-shadow: 3em 
+}
+.galeryPicture {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    width: 75%;
+    height: auto;
+}
+#overlay{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1000;
+}
+#overlay:target{
+    display: block;
+}
+#overlay a{
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.grayscale img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    
+}
+.grayscale img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+/* TITRES DE GALERIES*/
+h2 {
+    font-family: "Montserrat";
+}
+
+article {
+    padding-bottom: 3.5em
+}
